@@ -1,2 +1,2 @@
 # insomnia-playground
-Learning about Insomnia API platform
+Learning about [Insomnia](https://docs.insomnia.rest/insomnia/get-started) API platform
