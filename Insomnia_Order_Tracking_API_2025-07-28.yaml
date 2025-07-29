@@ -1,0 +1,88 @@
+type: collection.insomnia.rest/5.0
+name: Order Tracking System
+meta:
+  id: wrk_6c6688867c3347d180dc8459e61757a1
+  created: 1748403003636
+  modified: 1748403003636
+  description: ""
+collection:
+  - url: http://localhost:8080/orders
+    name: /orders
+    meta:
+      id: req_89c4d2da10ba41a8bbfa94b294be6151
+      created: 1748403006879
+      modified: 1748405497474
+      isPrivate: false
+      description: ""
+      sortKey: -1748403006879
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"productName": "Monopoly Boardgame",
+        	"totalQuantity": "1",
+        	"totalAmount": "19.99"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_90dad5835d748facf0b15d40bbcb5acb55725b03
+    created: 1748403003638
+    modified: 1748705649951
+  cookies:
+    - key: XSRF-TOKEN
+      value: eyJpdiI6Ikh1ZVhOY1Jyc0NZdGtXWXIzOWdTMVE9PSIsInZhbHVlIjoiTWpmdWVCQjZ0MUN3aE9FNjNEUXMva1NwN2VBZWpwU3YxR2p0OTlqd2h2Wm9aaTZ3eHNseTJBMTRyd29YRngwSWVLS2NuZ2szV2ZTNXBBVGxmc3JydzM1MDQ3YUZzbjJwMVVwbzVrbUtpR09tZVZtRU5yblpxdVRVWnZhcFk0enYiLCJtYWMiOiIyYmNhYWU0YzY5ZjZkMjYyMmIzODQ1NDUyOWQyZTE4YzdiNDcxODY0MGFiN2UwOWI1YTI4ZjQyMjhkN2Q5NzA3IiwidGFnIjoiIn0%3D
+      maxAge: 7200
+      domain: catfact.ninja
+      path: /
+      secure: true
+      hostOnly: true
+      creation: 2025-05-31T15:34:09.950Z
+      lastAccessed: 2025-05-31T15:34:09.950Z
+      sameSite: lax
+      id: acdc1ca5-3649-4df0-b547-16ea4713154e
+    - key: catfacts_session
+      value: eyJpdiI6Imd4YVJGb25KZ241K2h3THgvZklBYnc9PSIsInZhbHVlIjoiVjdoN3NEeDhZVElvWU1DQ3F2NksvQ2JPSW5Qb3BuL0hiSUxITWd5bU1kbDBMeVZyY01PL2dFMEFIVURieW5DaUo0RXpreGZpNERnWUJiZnY4eU5RK2piY3JaMXMrOVZ5Yllha0pnaVVESkxjM0lDcCtnYTJQdzA5LzNzcHh2NlMiLCJtYWMiOiJmODllZmE5OTU4MjVjOTZhOTZkY2EwOWI0NzRmYWU0MTUyMzc3MGM3MTg3MDE3MWMwNzQ0ZmViMGRkYmY1MTc1IiwidGFnIjoiIn0%3D
+      maxAge: 7200
+      domain: catfact.ninja
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-05-31T15:34:09.951Z
+      lastAccessed: 2025-05-31T15:34:09.951Z
+      sameSite: lax
+      id: 720d1f4d-1025-4f8b-b14b-637620cc7975
+    - key: DoiitpVF90ceHRSGPnWmRTGRbys6xa7eoiE8g3as
+      value: eyJpdiI6IldaaE5qNkgzdzRJUDVUT1NYNmVESkE9PSIsInZhbHVlIjoiTlFzK0h0eWhQenRQMGdVd2pOc2Q4bVBrMjY3ODJVdS9GemsvQlRKK014Tnh3MitTSU5mV0oyVXZNWjdEN2tzbzdWUW44UVcrWm5pSzRpLzhGQ1VmNzQ3L2U1eFNHUjBaRlV6ZXlpMWNJQlhVeUc5aXo0bDRUWkNPM1VuRUFlc0JISXVDMXNJM2NROHh4QXF0RlVNSDE3MzVWbXV5c2U1THBDbEFUNUNqWTIvMUFXYmpxUTdUZFJnT09sd096bnVuZDVkTnV5dGtKaEZVSDN5bC9IUXFvNTh0WXRlNFJWVTErTXdBZ3I0L3dpMjRiOUgzVVZFU05CR21mUlpCOFpDTjR2VzNIOXp4d1ZBNVJnd044ankxSU12N1FMQkFDZUNTL2F6US9SSDJFbS9QbzFrOXpFQ09sUUlyaTlvSnViUTNUY2M2TitvQzVQbDFNUmtGRStrTzB6a2VoR29HS2FOVUhXMGIyMnFSQkUyclY3VkxoMVJpOW9VOXJ0QWY4ZzZzIiwibWFjIjoiM2NiZTQ4ODY2NjI5ZDNkZDJkNzQ2YzFiYzUzZmEzMThjMjJjODhlNTc4NjlmMzJjZjlhNzU5ODYyMTkwNTVjYSIsInRhZyI6IiJ9
+      maxAge: 7200
+      domain: catfact.ninja
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-05-31T15:34:09.951Z
+      lastAccessed: 2025-05-31T15:34:09.951Z
+      sameSite: lax
+      id: c8951bf8-80e9-44f7-82b6-98268d87fcfc
+environments:
+  name: Base Environment
+  meta:
+    id: env_90dad5835d748facf0b15d40bbcb5acb55725b03
+    created: 1748403003637
+    modified: 1748403003637
+    isPrivate: false
