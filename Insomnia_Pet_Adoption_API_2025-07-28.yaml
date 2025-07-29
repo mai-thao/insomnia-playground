@@ -1,0 +1,205 @@
+type: collection.insomnia.rest/5.0
+name: Pet Adoption API
+meta:
+  id: wrk_48ffda118cd14c2ebd476f5dbfdba6cb
+  created: 1750221151985
+  modified: 1750221151985
+  description: ""
+collection:
+  - url: http://localhost:8080/pets
+    name: /pets
+    meta:
+      id: req_f9cde8e572ab4462aeb33709196bd609
+      created: 1750221154967
+      modified: 1750448775993
+      isPrivate: false
+      description: ""
+      sortKey: -1750221154967
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/pets
+    name: /pets
+    meta:
+      id: req_ec6ef980328443d08a72e272e8827045
+      created: 1750221326208
+      modified: 1750476989914
+      isPrivate: false
+      description: ""
+      sortKey: -1749463398686
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 1234,
+        	"name": "TEST",
+        	"age": 15,
+        	"breed": "TEST",
+        	"gender": "Female"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    authentication:
+      type: basic
+      useISO88591: false
+      disabled: false
+      username: admin
+      password: adminpassword
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/pets/123
+    name: /pets/{id}
+    meta:
+      id: req_d0d3e3366a8246ffa16bdde3455e3eda
+      created: 1750448715122
+      modified: 1750451321542
+      isPrivate: false
+      description: ""
+      sortKey: -1749084520545.5
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"id": 123,
+        	"name": "TESTUPDATE",
+        	"age": 15,
+        	"breed": "TESTUPDATE",
+        	"gender": "Female"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.1.0
+    authentication:
+      type: basic
+      useISO88591: false
+      disabled: false
+      username: admin
+      password: adminpassword
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/pets/123
+    name: /pets/{id}
+    meta:
+      id: req_eeca1cb7ed2349e896a284b9981bf019
+      created: 1750448717704
+      modified: 1750478228681
+      isPrivate: false
+      description: ""
+      sortKey: -1748895081475.25
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    authentication:
+      type: basic
+      useISO88591: false
+      disabled: false
+      username: manager
+      password: managerpassword
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/pets/123
+    name: /pets/{id}
+    meta:
+      id: req_c1910351d01b4d139f62b75cffe48902
+      created: 1750448724486
+      modified: 1750451222116
+      isPrivate: false
+      description: ""
+      sortKey: -1749842276826.5
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: http://localhost:8080/pets
+    name: /pets
+    meta:
+      id: req_5116482ec0b64acaa4889850bacab9e7
+      created: 1750478048673
+      modified: 1750478347070
+      isPrivate: false
+      description: ""
+      sortKey: -1748800361940.125
+    method: DELETE
+    headers:
+      - name: User-Agent
+        value: insomnia/11.1.0
+    authentication:
+      type: basic
+      useISO88591: false
+      disabled: false
+      username: admin
+      password: adminpassword
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_270407d48c7a66aa0709446047cb231af2f60070
+    created: 1750221151987
+    modified: 1750478199981
+  cookies:
+    - key: JSESSIONID
+      value: 35E1FC0EA020D35922F75CD18DE02BFE
+      domain: localhost
+      path: /
+      httpOnly: true
+      hostOnly: true
+      creation: 2025-06-18T04:32:54.170Z
+      lastAccessed: 2025-06-21T03:56:39.981Z
+      id: c262e96b-7077-4009-bbc5-66898f2a22e0
+environments:
+  name: Base Environment
+  meta:
+    id: env_270407d48c7a66aa0709446047cb231af2f60070
+    created: 1750221151986
+    modified: 1750221151986
+    isPrivate: false
