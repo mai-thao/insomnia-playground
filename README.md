@@ -11,5 +11,5 @@ All data and metadata of an Insomnia collection, document, or request can be [im
 ### Order Tracking API
 * This collection corresponds to this project: https://github.com/mai-thao/spring-playground/tree/main/spring-kafka
 
-### Secret-Santa-Nizer API
+### Secret-Santanizer API
 * This collection corresponds to this project: https://github.com/mai-thao/secret-santa-nizer
